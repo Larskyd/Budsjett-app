@@ -6,7 +6,7 @@ const Body = () =>{
 
     //valuta
     const formatKr = (amount) => {
-    return amount + ' Kr';
+    return amount + 'Kr';
     };
 
     //Faste inntekter
@@ -28,8 +28,11 @@ const Body = () =>{
     const totalUtgifter = utgifter.reduce((sum, e) => sum + e.value, 0);
     const overskudd = totalInntekt - totalUtgifter;
     
-    //Data til diagram
-    const data = [...utgifter]; 
+    //data til overskudd
+    const data = [
+        ...utgifter.filter(item => item.value > 0),
+        ...(overskudd > 0 ? [{name: 'Overskudd', value: overskudd}] : [])
+    ];
 
     //farger til diagrammet ekstra viss det blir flere utgifter
     const COLORS = [
