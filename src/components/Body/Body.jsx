@@ -38,7 +38,7 @@ const Body = () =>{
     '#5C6BC0', '#26A69A'
     ];
 
-    // utgifet
+    //utgifet
      const handleExpenseChange = (index, newValue) => {
         const numValue = Number(newValue) || 0;
         const updated = utgifter.map((item, i) => 
