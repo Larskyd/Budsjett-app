@@ -1,14 +1,14 @@
-import Header from './components/Header/Header'
-import Body from './components/Body/Body'
-import Footer from './components/Footer/Footer'
+import Header from './components/Layout/Header/Header.jsx'
+import BudsjettDashboard from './components/Budsjett/BudsjettDashboard/BudsjettDashboard.jsx'
+import Footer from './components/Layout/Footer/Footer.jsx'
 
-const App = () => {
-return (
-    <div>
+function App() {
+  return (
+    <>
       <Header/>
-      <Body/>
+      <BudsjettDashboard/>
       <Footer/>
-    </div>
+    </>
   )
 }
 
