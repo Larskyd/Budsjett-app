@@ -1,6 +1,6 @@
-import Header from './components/Layout/Header/Header.jsx'
-import BudsjettDashboard from './components/Budsjett/BudsjettDashboard/BudsjettDashboard.jsx'
-import Footer from './components/Layout/Footer/Footer.jsx'
+import Header from './components/Layout/Header/Header'
+import BudsjettDashboard from './components/Budsjett/BudsjettDashboard/BudsjettDashboard'
+import Footer from './components/Layout/Footer/Footer'
 
 function App() {
   return (

@@ -1,12 +1,12 @@
 import './Header.css'
+import logo from "../../../assets/sparsom-logo.png";
 
-const Header = () => {
+export default function Header() {
   return (
-    <header>
+    <header className="Header">
+    <img src={logo} alt="Hoved-logo" className="logo"/>
       <h1>Sparsom</h1>
-      <p>Student budsjett</p>
     </header>
-  )
+  );
 }
 
-export default Header

@@ -1,6 +1,17 @@
-header {
-  text-align: center;
-  background-color: #3498db;
-  color: white;
-  padding: 20px 0;
+/* Header.css */
+.Header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #013F5C 0%, #6B7B8C 100% );
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+.logo {
+  width: 125px;
+  height: auto;
 }

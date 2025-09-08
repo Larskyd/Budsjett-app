@@ -1,5 +1,5 @@
 
-//KaN endres under bruk
+//Faste utgift typer
 
     export const DEFAULT_EXPENSES = [
     {name: 'Leie', value: ''},
