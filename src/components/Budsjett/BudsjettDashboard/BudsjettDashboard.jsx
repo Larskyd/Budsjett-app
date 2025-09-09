@@ -24,7 +24,6 @@ const BudsjettDashboard = () => {
   return (
     <div className="budsjett-dashboard">
       <main className="dashboard-main">
-        <div className="input-container">
           <div className="input-sections">
             <IntektSeksjon 
               totalLoan={totalLoan}
@@ -40,7 +39,6 @@ const BudsjettDashboard = () => {
               handleExpenseChange={handleExpenseChange}
             />
           </div>
-        </div>
 
         <BudsjettOppsummering 
           totalInntekt={totalInntekt}
