@@ -8,7 +8,7 @@ const UtgiftSeksjon = ({ utgifter, handleExpenseChange }) => {
       <div className="input-grid">
         {utgifter.map((exp, i) => (
           <div key={exp.name} className="input-group">
-            <label className="input-label">{exp.name}</label>
+            <label className="input-label">{exp.name.toUpperCase()}</label>
             <div className="input-wrapper">
               <input
                 type="number"

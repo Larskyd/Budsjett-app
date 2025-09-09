@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="Header">
     <img src={logo} alt="Hoved-logo" className="logo"/>
-      <h1>Sparsom</h1>
+    <h1>SPARSOM</h1>
     </header>
   );
 }

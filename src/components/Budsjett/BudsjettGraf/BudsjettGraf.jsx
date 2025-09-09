@@ -21,7 +21,6 @@ const BudsjettGraf = ({ data }) => {
                     cx="50%"
                     cy="50%"
                     outerRadius={130}
-                    label={(entry) => `${entry.name}: ${formatKr(entry.value)}`}
                   >
                     {data.map((_, idx) => (
                       <Cell key={idx} fill={CHART_COLORS[idx % CHART_COLORS.length]} />

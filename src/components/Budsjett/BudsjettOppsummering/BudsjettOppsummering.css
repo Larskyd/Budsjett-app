@@ -1,6 +1,6 @@
 .summary-container {
   width: 100%;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 .summary-box {
@@ -10,11 +10,12 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border: 1px solid #eee;
   box-sizing: border-box;
+  height: 298px;
 }
 
 .summary-title {
   margin: 0 0 1rem 0;
-  color: #333;
+  color: black;
   font-size: 1.25rem;
   font-weight: 600;
 }
