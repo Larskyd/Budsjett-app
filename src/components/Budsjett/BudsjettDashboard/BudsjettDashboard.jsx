@@ -18,7 +18,8 @@ const BudsjettDashboard = () => {
     data,
     setJobb,
     setHarEkstraLoan,
-    handleExpenseChange
+    handleExpenseChange,
+    addExpense
   } = useBudsjett();
 
   return (
@@ -37,6 +38,7 @@ const BudsjettDashboard = () => {
             <UtgiftSeksjon 
               utgifter={utgifter}
               handleExpenseChange={handleExpenseChange}
+              addExpense={addExpense}
             />
           </div>
 

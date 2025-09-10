@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 export const useBudsjett = () => {
@@ -6,7 +5,7 @@ export const useBudsjett = () => {
   const totalLoan = 15169;
   const ekstraLoan = 4572;
   
-  // Ka endres under bruk
+  // Kan endres under bruk
   const [jobb, setJobb] = useState(0);
   const [harEkstraLoan, setHarEkstraLoan] = useState(false);
   const [utgifter, setUtgifter] = useState([
@@ -27,15 +26,21 @@ export const useBudsjett = () => {
     ...(overskudd > 0 ? [{name: 'Overskudd', value: overskudd}] : [])
   ];
 
-  // utgifet handler
+  // Endre eksisterende utgifter
   const handleExpenseChange = (index, newValue) => {
     const numValue = Number(newValue) || 0;
     const updated = utgifter.map((item, i) => 
       i === index 
         ? { name: item.name, value: numValue }
-        : { name: item.name, value: item.value }
+        : item
     );
     setUtgifter(updated);
+  };
+
+  // Legg til ny utgift
+  const addExpense = (name) => {
+    if (!name.trim()) return;
+    setUtgifter([...utgifter, { name, value: 0 }]);
   };
   
   return {
@@ -50,6 +55,7 @@ export const useBudsjett = () => {
     data,
     setJobb,
     setHarEkstraLoan,
-    handleExpenseChange
+    handleExpenseChange,
+    addExpense
   };
 };
