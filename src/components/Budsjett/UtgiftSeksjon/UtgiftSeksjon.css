@@ -5,104 +5,20 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border: 1px solid #eee;
   box-sizing: border-box;
-  width: 205.5%;
+  width: 100%;
 }
 
-.expense-section .section-title {
+.section-title {
   margin: 0 0 1rem 0;
   color: #333;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.expense-section .input-grid {
+.fixed-expenses {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  flex: 1; 
 }
 
-.expense-section .input-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.expense-section .input-label {
-  text-align: left;
-  color: #333;
-  font-family:'Segoe UI','Helvetica Neue', Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.expense-section .input-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 50%;
-}
-
-.expense-section .styled-input {
-  width: 100%;
-  padding: 0.75rem 3rem 0.75rem 1rem;
-  border: 1px solid #e9ecef;
-  border-radius: 6px;
-  font-size: 1rem;
-  transition: border-color 0.2s ease;
-}
-
-.expense-section .styled-input:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
-}
-
-.expense-section .input-suffix {
-  position: absolute;
-  right: 1rem;
-  color: #6c757d;
-  font-size: 0.9rem;
-  pointer-events: none;
-}
-
-.expense-section .add-expense {
-  display: flex;
-  gap: 0.75rem;
-  margin-top: 1.5rem;
-  width: 50%;
-}
-
-.expense-section .add-expense input {
-  flex: 1;
-  padding: 0.75rem 1rem;
-  border: 1px solid #e9ecef;
-  border-radius: 6px;
-  font-size: 1rem;
-  transition: border-color 0.2s ease;
-}
-
-.expense-section .add-expense input:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
-}
-
-.expense-section .add-expense .add-button {
-  padding: 0.75rem 1.25rem;
-  border: none;
-  border-radius: 6px;
-  background: #007bff;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.2s ease;
-}
-
-.expense-section .add-expense .add-button:hover {
-  background: #0056b3;
-}
-
-.expense-section .add-expense .add-button:active {
-  background: #004494;
-}
