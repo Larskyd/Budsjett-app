@@ -8,9 +8,8 @@ En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpass
 - Legg til ekstra inntekt (jobb, stipend, etc.)
 - Mulighet for ekstra lån/støtte
 
-### Utgiftssporing
+### Utgift
 - Forhåndsdefinerte kategorier: Leie, Mat, Fritid, Transport
-- Legg til egendefinerte utgifter
 
 ### Sanntidsberegning
 - Totale inntekter, utgifter og overskudd oppdateres automatisk
