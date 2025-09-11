@@ -1,4 +1,4 @@
-# Budsjett App
+# Budsjett App https://budsjett-app.vercel.app/
 
 En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpasset studenter.
 
