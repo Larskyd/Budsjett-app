@@ -30,6 +30,7 @@ En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpass
 
 ## Prosjektstruktur
 src/
+
 ├── components/
 
 │ ├── Layout/
