@@ -1,61 +1,58 @@
-Budsjett Applikasjon
-En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpasset studenter
+# Budsjett App
 
-Inntektshåndtering: 
-Automatisk beregning av månedlig støtte fra Lånekassen med mulighet for ekstra inntekt
-Utgiftssporing: Forhåndsdefinerte utgiftskategorier (Leie, Mat, Fritid, Transport)
-Sanntidsberegning: Automatisk oppdatering av totale inntekter, utgifter og overskudd
-Visuell fremstilling: Interaktivt kakediagram som viser utgiftsfordeling
+En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpasset studenter.
 
-Teknologier:
-React 18 rammeverk
-Custom Hooks
-Recharts for data-visualisering
-CSS3 for styling og layout
-Vite build tool og development server
+## Funksjoner
+### Inntektshåndtering
+- Automatisk beregning av månedlig støtte fra Lånekassen 
+- Legg til ekstra inntekt (jobb, stipend, etc.)
+- Mulighet for ekstra lån/støtte
 
-Prosjektstruktur
+### Utgiftssporing
+- Forhåndsdefinerte kategorier: Leie, Mat, Fritid, Transport
+- Legg til egendefinerte utgifter
+- To-kolonne layout: faste utgifter til venstre, nye utgifter til høyre
+
+### Sanntidsberegning
+- Totale inntekter, utgifter og overskudd oppdateres automatisk
+
+### Visualisering
+- Interaktivt kakediagram som viser utgiftsfordeling (Recharts)
+
+---
+
+## Teknologier
+- **React 18** – Frontend-rammeverk  
+- **Custom Hooks** – State management (`useBudsjett`)  
+- **Recharts** – Data-visualisering  
+- **CSS3** – Styling og layout  
+- **Vite** – Build tool og development server  
+
+---
+
+## Prosjektstruktur
 src/
 ├── components/
-│   ├── Layout/
-│   │   ├── Header/
-│   │   └── Footer/
-│   └── Budsjett/
-│       ├── BudsjettDashboard/
-│       ├── IntektSeksjon/
-│       ├── UtgiftSeksjon/
-│       ├── BudsjettOppsummering/
-│       └── BudsjettGraf/
+│ ├── Layout/
+│ │ ├── Header/
+│ │ └── Footer/
+│ └── Budsjett/
+│ ├── BudsjettDashboard/
+│ ├── IntektSeksjon/
+│ ├── UtgiftSeksjon/
+│ ├── BudsjettOppsummering/
+│ └── BudsjettGraf/
 ├── hooks/
-│   └── useBudsjett.js
+│ └── useBudsjett.js
 ├── utils/
-│   ├── formatters.js
-│   └── Constants.js
+│ ├── formatters.js
+│ └── Constants.js
 └── App.jsx
 
-Komponenter
-BudsjettDashboard
-Hovedkomponent som over ser alle andre komponenter og håndterer state.
-
-IntektSeksjon
-Fast månedlig støtte fra Lånekassen (15,169 kr)
-Input for ekstra inntekt (jobb, stipend, etc.)
-Checkbox for ekstra lån/støtte (4,572 kr)
-
-UtgiftSeksjon
-Fire forhåndsdefinerte utgiftskategorier
-Dynamisk tillegging av nye utgiftskategorier
-To-kolonne layout: faste utgifter til venstre, nye utgifter til høyre
-
-BudsjettOppsummering
-Viser totale inntekter, utgifter og beregnet overskudd med fargekoding.
-
-BudsjettGraf
-Interaktivt kakediagram som visualiserer utgiftsfordeling basert på Recharts.
-
-Installation
-
-git clone 
+## Installasjon
+```bash
+# Klon repository
+git clone <repository-url>
 
 # Naviger til prosjektmappe
 cd budsjett-app
@@ -65,7 +62,3 @@ npm install
 
 # Start development server
 npm run dev
-
-
-
-
