@@ -55,7 +55,7 @@ Interaktivt kakediagram som visualiserer utgiftsfordeling basert på Recharts.
 
 Installation
 
-git clone <repository-url>
+git clone 
 
 # Naviger til prosjektmappe
 cd budsjett-app
@@ -65,26 +65,7 @@ npm install
 
 # Start development server
 npm run dev
-Bruk
 
-Sett inntekter: Legg inn ekstra inntekt og velg om du har ekstra lån
-Legg til utgifter: Fyll inn beløp for de forhåndsdefinerte kategoriene
-Tilpass utgifter: Legg til egne utgiftskategorier ved behov
-Se resultater: Overskudd/underskudd beregnes automatisk og vises visuelt
-
-Utviklerfunksjoner
-Custom Hook: useBudsjett
-Håndterer all state logic for budsjettet:
-
-State management for inntekter og utgifter
-Automatiske beregninger
-Data formatering for grafer
-
-Formattering
-Bruker formatKr() utility for konsistent visning av kronebeløp.
-Responsiv Design
-CSS Grid og Flexbox for optimal layout på alle skjermstørrelser.
-Fremtidige forbedringer
 
 
 
