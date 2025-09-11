@@ -33,26 +33,41 @@ En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpass
 ## Prosjektstruktur
 src/
 ├── components/
+
 │ ├── Layout/
+
 │ │ ├── Header/
+
 │ │ └── Footer/
+
 │ └── Budsjett/
+
 │ ├── BudsjettDashboard/
+
 │ ├── IntektSeksjon/
+
 │ ├── UtgiftSeksjon/
+
 │ ├── BudsjettOppsummering/
+
 │ └── BudsjettGraf/
+
 ├── hooks/
+
 │ └── useBudsjett.js
+
 ├── utils/
+
 │ ├── formatters.js
+
 │ └── Constants.js
+
 └── App.jsx
 
 ## Installasjon
 ```bash
 # Klon repository
-git clone <repository-url>
+git clone (https://github.com/Larskyd/Budsjett-app.git)
 
 # Naviger til prosjektmappe
 cd budsjett-app
