@@ -13,6 +13,7 @@ export const useBudsjett = () => {
     {name: 'Mat', value: ''},
     {name: 'Fritid', value: ''},
     {name: 'Transport', value: ''}
+
   ]);
   
   // Utregninger
@@ -37,11 +38,11 @@ export const useBudsjett = () => {
     setUtgifter(updated);
   };
 
-  // Legg til ny utgift
+  /* Legg til ny utgift
   const addExpense = (name) => {
     if (!name.trim()) return;
     setUtgifter([...utgifter, { name, value: 0 }]);
-  };
+  }; */
   
   return {
     totalLoan,
@@ -55,7 +56,6 @@ export const useBudsjett = () => {
     data,
     setJobb,
     setHarEkstraLoan,
-    handleExpenseChange,
-    addExpense
+    handleExpenseChange
   };
 };
