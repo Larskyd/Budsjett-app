@@ -36,31 +36,31 @@ src/
 
 │ ├── Layout/
 
-│ │ ├── Header/
+│ │   ├── Header/
 
-│ │ └── Footer/
+│ │   └── Footer/
 
 │ └── Budsjett/
 
-│ ├── BudsjettDashboard/
+│   ├── BudsjettDashboard/
 
-│ ├── IntektSeksjon/
+│   ├── IntektSeksjon/
 
-│ ├── UtgiftSeksjon/
+│   ├── UtgiftSeksjon/
 
-│ ├── BudsjettOppsummering/
+│   ├── BudsjettOppsummering/
 
-│ └── BudsjettGraf/
+│   └── BudsjettGraf/
 
 ├── hooks/
 
-│ └── useBudsjett.js
+│   └── useBudsjett.js
 
 ├── utils/
 
-│ ├── formatters.js
+│   ├── formatters.js
 
-│ └── Constants.js
+│   └── Constants.js
 
 └── App.jsx
 
