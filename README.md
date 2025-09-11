@@ -11,7 +11,6 @@ En moderne React-applikasjon for personlig budsjettplanlegging, spesielt tilpass
 ### Utgiftssporing
 - Forhåndsdefinerte kategorier: Leie, Mat, Fritid, Transport
 - Legg til egendefinerte utgifter
-- To-kolonne layout: faste utgifter til venstre, nye utgifter til høyre
 
 ### Sanntidsberegning
 - Totale inntekter, utgifter og overskudd oppdateres automatisk
