@@ -1,5 +1,5 @@
 import { formatKr } from '../../../utils/formatters';
-import { CHART_COLORS } from '../../../utils/Constants';
+import { CHART_COLORS } from '../../../utils/constants';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import './BudsjettGraf.css';
 
